@@ -48,6 +48,9 @@
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="aosp-legacy" />
 
   <!-- LineageOS Repos -->
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-17.0" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-17.0" />
+  <project name="LineageOS/android_system_qcom" path="system/qcom" groups="qcom" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" remote="github" revision="lineage-17.0" />
 
 </manifest>
