@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Device -->
+  <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/common" />
@@ -92,6 +92,10 @@
   <remove-project name="platform/frameworks/av" groups="pdk" />
   <remove-project name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="platform/frameworks/native" groups="pdk" />
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Camera2" groups="pdk-fs" />
+  <remove-project name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
