@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="legacy"
+          fetch="https://github.com/legacy"
+          revision="ten" />
+
+  <remote name="github"
+          fetch="https://github.com" />
+
+  <project path="manifest" name="manifest" remote="legacy" />
+
+  <project path="build/make" name="build_make" remote="legacy" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="legacy" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="art" name="art" remote="legacy" />
+  <project path="bionic" name="bionic" remote="legacy" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="legacy" />
+  <project path="external/connectivity" name="external_connectivity" remote="legacy" />
+  <project path="external/libbfqio" name="external_libbfqio" remote="legacy" />
+  <project path="external/selinux" name="external_selinux" remote="legacy" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="legacy" />
+  <project path="frameworks/av" name="frameworks_av" remote="legacy" />
+  <project path="frameworks/base" name="frameworks_base" remote="legacy" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="legacy" />
+  <project path="frameworks/native" name="frameworks_native" remote="legacy" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="legacy" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="legacy" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="legacy" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="legacy" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="legacy" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="legacy" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="legacy" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="legacy" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="legacy" />
+  <project path="hardware/ril" name="hardware_ril" remote="legacy" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="legacy" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="legacy" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="legacy" />
+  <project path="prebuilts/r8" name="prebuilts_r8" remote="legacy" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="legacy" />
+  <project path="system/bt" name="system_bt" remote="legacy" />
+  <project path="system/core" name="system_core" remote="legacy" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="legacy" />
+  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="legacy" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="legacy" />
+
+  <!-- LineageOS Repos -->
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-17.0" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-17.0" />
+  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="legacy" />
+  <project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" remote="github" revision="lineage-17.0" />
+</manifest>
