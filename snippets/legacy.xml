@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="legacy"
-          fetch="https://github.com/legacy"
+          fetch="https://github.com/AOSP-LEGACY"
           revision="ten" />
 
   <remote name="github"
