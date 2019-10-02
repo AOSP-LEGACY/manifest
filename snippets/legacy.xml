@@ -51,6 +51,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="legacy" />
   <project path="system/bt" name="system_bt" remote="legacy" />
   <project path="system/core" name="system_core" remote="legacy" />
+  <project path="system/vold" name="system_vold" remote="legacy" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="legacy" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="legacy" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="legacy" />
