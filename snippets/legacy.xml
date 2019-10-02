@@ -61,4 +61,5 @@
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-17.0" />
   <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-17.0" />
   <project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" remote="github" revision="lineage-17.0" />
+  <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-17.0" />
 </manifest>
