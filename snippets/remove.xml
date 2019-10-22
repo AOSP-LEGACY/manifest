@@ -102,7 +102,10 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/Terminal" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />

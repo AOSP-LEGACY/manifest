@@ -46,7 +46,10 @@
   <project path="hardware/ril" name="hardware_ril" remote="legacy" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="legacy" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="legacy" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="legacy" />
+  <project path="packages/apps/Terminal" name="packages_apps_Terminal" remote="legacy" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="legacy" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="legacy" />
   <project path="prebuilts/r8" name="prebuilts_r8" remote="legacy" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="legacy" />
   <project path="system/bt" name="system_bt" remote="legacy" />
